@@ -73,7 +73,7 @@ section {
 /* ----------------------
 header
 ------------------------*/
-#header {
+.header {
   padding: var(--space-xxs) var(--space-s);
 }
 .logo {

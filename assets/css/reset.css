@@ -11,7 +11,6 @@ body {
   padding: 0;
   color: var(--color-font);
   line-height: 1.5;
-  /* font-size: clamp(0.9rem, 0.869rem + 0.15vw, 1rem); */
 }
 
 img {
