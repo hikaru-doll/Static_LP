@@ -36,6 +36,7 @@
   section voice
   -------------- */
   .voice {
+    /* タブレット、PCサイズは横並び */
     .flex {
       flex-direction: row;
       align-items: center;
@@ -63,6 +64,7 @@
   section summary
   -------------- */
   .summary {
+    /* タブレット、PCサイズは横2列 */
     .grid {
       grid-template-columns: 1fr 1fr;
     }
@@ -80,6 +82,7 @@
   -------------- */
   .footer {
     .grid {
+      /* タブレット、PCサイズは横４列 */
       grid-template-columns: repeat(4, 1fr);
     }
   }
