@@ -4,8 +4,8 @@
 🔗[BBB 英会話スクール](https://hikarudoll.xsrv.jp/lp/)  
  ※ポートフォリオ用の架空サイトです。実在するサービスではありません。
  ## 概要
- Figmaで作成されたデザインカンプをもとにコーディングしました。
- デザインカンプ： 🔗[Codejump](https://code-jump.com/lp-menu/)
+ Figmaで作成されたデザインカンプをもとにコーディングしました。  
+ デザインカンプ提供元： 🔗[Codejump](https://code-jump.com/lp-menu/)
  ## 使用技術
  HTML / CSS / JavaScript / figma
  ## 制作内容
