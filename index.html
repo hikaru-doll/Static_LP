@@ -2,17 +2,36 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BBB 英会話スクール</title>
+    <meta
+      name="description"
+      content="英会話スクールBBBの無料体験レッスンのご案内です。"
+    />
     <link rel="stylesheet" href="assets/css/variable.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <title>BBB 英会話スクール</title>
+    <!-- 構造化データ ------>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "BBB英会話スクール",
+        "url": "https://hikarudoll.xsrv.jp/lp/",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "JPY",
+          "description": "無料体験レッスン"
+        }
+      }
+    </script>
   </head>
   <body>
-    <!-- header start------------------------------------------------------->
+    <!-- header start------------------------------------->
     <header id="header" class="header">
       <div>
         <button
@@ -49,8 +68,7 @@
         </nav>
       </div>
     </header>
-    <!-- /header end------------------------------------------------------>
-    <!-- main start------------------------------------------------------->
+    <!-- main--------------------->
     <main>
       <div class="hero">
         <img
@@ -65,7 +83,7 @@
           </div>
         </div>
       </div>
-      <!-- section reason start------------------------------------->
+      <!-- reason ---------->
       <section id="reason" class="reason">
         <h2 class="title">BBBが選ばれる理由</h2>
         <ul class="list">
@@ -89,8 +107,7 @@
           </li>
         </ul>
       </section>
-      <!-- /section reason end-------------------------------------->
-      <!-- section voice start------------------------------------->
+      <!-- voice ------------------>
       <section id="voice" class="voice wrapper">
         <h2 class="title">受講生の声</h2>
         <ul class="list">
@@ -135,8 +152,7 @@
           </li>
         </ul>
       </section>
-      <!-- /section voice end-------------------------------------->
-      <!-- section summary start------------------------------------->
+      <!-- summary start------------------->
       <section id="summary" class="summary">
         <div class="inner">
           <h2 class="title">スクールの概要</h2>
@@ -180,8 +196,7 @@
           </ul>
         </div>
       </section>
-      <!-- /section summary end-------------------------------------->
-      <!-- section cta start------------------------------------->
+      <!-- cta ------------------------->
       <section id="cta" class="cta wrapper">
         <p class="item-title">
           まずは無料で、BBBの英会話<br class="blank" />を試してみませんか？
@@ -193,10 +208,8 @@
           <a href="#">無料体験に申し込む</a>
         </div>
       </section>
-      <!-- /section end-------------------------------------->
     </main>
-    <!-- /main end-------------------------------------------------------->
-    <!-- footer start----------------------------------------------------->
+    <!-- footer ------------------------------>
     <footer id="footer" class="footer">
       <nav aria-label="フッターナビゲーション">
         <ul class="grid wrapper">
@@ -238,7 +251,6 @@
       </nav>
       <p class="copyright">&copy; BBB English School</p>
     </footer>
-    <!-- /footer end------------------------------------------------------>
     <script src="java.js"></script>
   </body>
 </html>
