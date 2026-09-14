@@ -1,4 +1,4 @@
- # BBB 英会話スクール
+ # 英会話スクール LP
 
  ## DEMO
 🔗[BBB 英会話スクール](https://hikarudoll.xsrv.jp/lp/)  
