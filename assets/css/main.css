@@ -123,19 +123,6 @@ section summary
   background-image: url(../img/bg-pc.png);
   animation: move-dots 8s linear infinite;
 
-  /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝ 
-  画像無しで、それっぽいバージョン 
-  ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-
-  /* position: relative;
-  background-image: radial-gradient(
-    circle,
-    #ff2a2a 49%,
-    #e8e8e8 50% 
-  );
-  background-size: 500px 500px; 
-  animation: move-dots 8s linear infinite; */
-
   .inner {
     padding: var(--space-l) 0;
   }
