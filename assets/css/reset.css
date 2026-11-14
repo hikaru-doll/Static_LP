@@ -11,6 +11,7 @@ body {
   padding: 0;
   color: var(--color-font);
   line-height: 1.5;
+  font-family: var(--font-zen);
 }
 
 img {
@@ -19,7 +20,7 @@ img {
 }
 a {
   text-decoration: none;
-  color: var(--color-black);
+  color: var(--color-font);
 }
 ul {
   padding: 0;
