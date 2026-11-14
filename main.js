@@ -49,24 +49,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // section reason のアニメーション
   const slide = document.querySelectorAll(".slideItem");
-  let observerSlide = new IntersectionObserver(callbackSlide);
+  const observerSlide = new IntersectionObserver((entries) => {
+    entries.forEach((value) => {
+      if (value.isIntersecting) {
+        value.target.classList.add("sliding");
+        observerSlide.unobserve(value.target);
+      }
+    });
+  });
+
   slide.forEach((value) => {
     observerSlide.observe(value);
   });
-  function callbackSlide(entries) {
-    if (entries[0].isIntersecting) {
-      entries[0].target.classList.add("sliding");
-    }
-  }
+
   // section voice のアニメーション
   const pop = document.querySelectorAll(".popItem");
-  let observerPop = new IntersectionObserver(callbackPop);
+  const observerPop = new IntersectionObserver((entries) => {
+    entries.forEach((value) => {
+      if (value.isIntersecting) {
+        value.target.classList.add("pop");
+        observerPop.unobserve(value.target);
+      }
+    });
+  });
+
   pop.forEach((value) => {
     observerPop.observe(value);
   });
-  function callbackPop(entries) {
-    if (entries[0].isIntersecting) {
-      entries[0].target.classList.add("pop");
-    }
-  }
 });
