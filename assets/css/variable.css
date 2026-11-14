@@ -1,5 +1,7 @@
 @charset "UTF-8";
 :root {
+  /* === font family =================*/
+  --font-zen: "Zen Kaku Gothic New", sans-serif;
   /* === color ====================== */
   --color-red: #ff2a2a;
   --color-font: #333;
