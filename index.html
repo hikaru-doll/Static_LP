@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow" />
@@ -9,6 +9,14 @@
       name="description"
       content="英会話スクールBBBの無料体験レッスンのご案内です。"
     />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
     <link rel="stylesheet" href="assets/css/variable.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="style.css" />
@@ -34,9 +42,9 @@
     <!-- header start------------------------------------->
     <header id="header" class="header">
       <div>
-        <h1 class="logo">
+        <div class="logo">
           <a href="#"> BBB </a>
-        </h1>
+        </div>
         <p>英会話スクール</p>
         <button
           class="ham"
@@ -49,7 +57,11 @@
           <span class="ham3"></span>
         </button>
 
-        <nav class="main-navigation" aria-label="メインナビゲーション">
+        <nav
+          id="main-navigation"
+          class="main-navigation"
+          aria-label="メインナビゲーション"
+        >
           <ul class="nav-menu">
             <li class="nav-item">
               <a href="#reason">BBBが選ばれる理由</a>
@@ -73,13 +85,13 @@
       <div class="hero">
         <img
           class="image"
-          src="assets/img/mainvisual1 2.png"
+          src="assets/img/mainvisual.webp"
           alt="黒板に文字を書く子供"
         />
         <div class="wrapper">
-          <p class="catchphrase">話して学ぼう！<br />BBB英会話スクール</p>
+          <h1 class="catchphrase">話して学ぼう！<br />BBB英会話スクール</h1>
           <div class="button">
-            <a href="">無料体験はこちら</a>
+            <a href="#">無料体験はこちら</a>
           </div>
         </div>
       </div>
@@ -249,7 +261,7 @@
           </li>
         </ul>
       </nav>
-      <p class="copyright"><span id="year"></span>&copy; BBB English School</p>
+      <p class="copyright">&copy;<span id="year"></span> BBB English School</p>
     </footer>
     <script src="main.js"></script>
   </body>
