@@ -13,10 +13,10 @@
       top: 35%;
       left: 10%;
     }
-    .image {
-      position: absolute;
-      right: 0;
-    }
+  }
+  .hero-image {
+    position: absolute;
+    right: 0;
   }
   /* -------------
   section reason
