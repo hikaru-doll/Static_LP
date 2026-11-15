@@ -45,7 +45,6 @@ section reason
     border-radius: 0 var(--radius-l) var(--radius-s) 0;
     margin-right: var(--space-xxs);
     margin-bottom: var(--space-m);
-    transform: translateX(-100%);
     .image {
       width: 30%;
     }
@@ -53,7 +52,6 @@ section reason
   .item-teacher {
     border-radius: var(--radius-l) 0 0 var(--radius-s);
     margin-left: var(--space-xxs);
-    transform: translateX(100%);
     .image {
       width: 20%;
     }
@@ -65,11 +63,16 @@ section reason
   .text p {
     font-size: var(--text-l);
   }
-
-  .sliding {
-    transform: translateX(0);
-    transition: 0.6s ease-in-out;
-  }
+}
+.js .item-pc {
+  transform: translateX(-100%);
+}
+.js .item-teacher {
+  transform: translateX(100%);
+}
+.js .sliding {
+  transform: translateX(0);
+  transition: 0.6s ease-in-out;
 }
 /* --------------------
 section voice
@@ -104,14 +107,14 @@ section voice
       transform: translateX(-15px);
     }
   }
-  .item {
-    padding: 0;
-    transform: scale(0.2);
-  }
-  .pop {
-    transform: scale(1);
-    transition: 0.4s ease-in-out;
-  }
+}
+.js .popItem {
+  padding: 0;
+  transform: scale(0.2);
+}
+.js .pop {
+  transform: scale(1);
+  transition: 0.4s ease-in-out;
 }
 
 /* --------------------
@@ -172,5 +175,12 @@ section cta
       outline: 3px solid var(--color-red);
       color: var(--color-red);
     }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
   }
 }
